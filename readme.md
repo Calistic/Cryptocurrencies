@@ -1,5 +1,3 @@
-# Challenge
-
 # Data Processesing
 I initially used LabelEncoder (sklearn.preprocessing) to re-lable the string columns to numeric, but this lead to a smooth elbow curve (K= 6 ,7, or 8). I then used get_dummies (pandas) to convert the same column and this lead to a much clearer elbow curve (K = 4 or 5).
 
